@@ -1,6 +1,6 @@
 // ================== All Imports
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
-import DarkVersion from "./component/Dark/DarkVersion"
+import DarkVersion  from "./component/Dark/DarkVersion"
 import LightVersion from "./component/Light/LightVersion"
 
 

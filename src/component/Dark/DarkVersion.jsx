@@ -1,10 +1,5 @@
 // ================== All Imports
 import React               from 'react'
-import logo                from '../images/Logo.png'
-import banner              from '../images/Login Image.png'
-import google              from '../images/google.png'
-import facebook            from '../images/facebook.png'
-import apple               from '../images/apple.png'
 import FormFunction        from '../Form/FormFunction'
 import { Link }            from 'react-router-dom'
 import { FaRegLightbulb }  from 'react-icons/fa'
@@ -19,7 +14,7 @@ const DarkVersion = () => {
 
                     {/* ------ Logo Part ------ */}
                     <header className='w-[100px] bg-[#1E1E1E]'>
-                        <img src={logo} alt="Logo_image" />
+                        <img src="/src/component/images/Logo.png" alt="Logo_image" />
                     </header>
 
                     {/* ------ Sign_in Part ------ */}
@@ -42,7 +37,7 @@ const DarkVersion = () => {
                 <main className='container bottom-0 left-0 mt-[88px] flex justify-between'>
 
                     {/* ------ Login Page Image ------ */}
-                    <img src={banner} alt="loginPage_image" className='w-[600px] ' />
+                    <img src="/src/component/images/Login Image.png" alt="loginPage_image" className='w-[600px] ' />
 
                     {/* ============= Form Part ============= */}
                     <ul className='w-[380px]'>
@@ -62,9 +57,9 @@ const DarkVersion = () => {
 
                         {/* --------- Social Links --------- */}
                         <ul className='mt-10 flex justify-between '>
-                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src={google}   alt="google_image" /></button>
-                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src={facebook} alt="facebook_image" /></button>
-                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src={apple}    alt="apple_image" /></button>
+                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="/src/component/images/google.png"   alt="google_image" /></button>
+                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="/src/component/images/facebook.png" alt="facebook_image" /></button>
+                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="/src/component/images/apple.png"    alt="apple_image" /></button>
                         </ul>
 
                         {/* ============== If Doesn't Have Account ============== */}
