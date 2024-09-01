@@ -14,7 +14,7 @@ const DarkVersion = () => {
 
                     {/* ------ Logo Part ------ */}
                     <header className='w-[100px] bg-[#1E1E1E]'>
-                        <img src="/public/Logo.png" alt="Logo_image" />
+                        <img src="/Logo.png" alt="Logo_image" />
                     </header>
 
                     {/* ------ Sign_in Part ------ */}
@@ -37,7 +37,7 @@ const DarkVersion = () => {
                 <main className='container bottom-0 left-0 mt-[88px] flex justify-between'>
 
                     {/* ------ Login Page Image ------ */}
-                    <img src="/public/Login Image.png" alt="loginPage_image" className='w-[600px] ' />
+                    <img src="../../../public/Login Image.png" alt="loginPage_image" className='w-[600px] ' />
 
                     {/* ============= Form Part ============= */}
                     <ul className='w-[380px]'>
