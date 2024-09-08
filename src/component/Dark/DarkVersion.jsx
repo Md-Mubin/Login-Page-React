@@ -14,7 +14,7 @@ const DarkVersion = () => {
 
                     {/* ------ Logo Part ------ */}
                     <header className='w-[100px] bg-[#1E1E1E]'>
-                        <img src="/Logo.png" alt="Logo_image" />
+                        <img src="Logo/Logo.png" alt="Logo_image" />
                     </header>
 
                     {/* ------ Sign_in Part ------ */}
@@ -37,7 +37,7 @@ const DarkVersion = () => {
                 <main className='container bottom-0 left-0 mt-[88px] flex justify-between'>
 
                     {/* ------ Login Page Image ------ */}
-                    <img src="/Login Image.png" alt="loginPage_image" className='w-[600px] ' />
+                    <img src="Banner/banner.png" alt="loginPage_image" className='w-[600px] ' />
 
                     {/* ============= Form Part ============= */}
                     <ul className='w-[380px]'>
@@ -57,9 +57,9 @@ const DarkVersion = () => {
 
                         {/* --------- Social Links --------- */}
                         <ul className='mt-10 flex justify-between '>
-                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="google.png"   alt="google_image" /></button>
-                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="facebook.png" alt="facebook_image" /></button>
-                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="apple.png"    alt="apple_image" /></button>
+                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="Social/google.png"   alt="google_image" /></button>
+                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="Social/facebook.png" alt="facebook_image" /></button>
+                            <button className='px-8 py-3 border-2 bg-white rounded-xl hover:scale-110 transition duration-200'><img src="Social/apple.png"    alt="apple_image" /></button>
                         </ul>
 
                         {/* ============== If Doesn't Have Account ============== */}

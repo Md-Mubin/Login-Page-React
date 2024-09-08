@@ -5,11 +5,11 @@ import { ImEye, ImEyeBlocked }  from 'react-icons/im'
 const FormFunction = () => {
 
     // ================== All Use-States
-    const [email,      setEmail] =        useState("")
-    const [pass,       setPass] =         useState("")
-    const [emailError, setEmailError] =   useState("")
-    const [passError,  setPassError] =    useState("")
-    const [show,       block] =           useState(true) // for toggle
+    const [email,      setEmail]        = useState("")
+    const [pass,       setPass]         = useState("")
+    const [emailError, setEmailError]   = useState("")
+    const [passError,  setPassError]    = useState("")
+    const [show,       block]           = useState(true) // for toggle
 
     // ================== All Functions
 
